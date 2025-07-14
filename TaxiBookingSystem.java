@@ -254,7 +254,7 @@ class Booking {
 public class TaxiBookingSystem {
     private static final String url = "jdbc:mysql://localhost:3306/cab";
     private static final String user = "root";
-    private static final String password = "PIYUSH@111WORD016";
+    private static final String password = "Password007";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try {
