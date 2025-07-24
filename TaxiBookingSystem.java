@@ -39,13 +39,13 @@ class Booking {
                 int r3 = 200;
                 int r4 = 1;
                 int r5 = 10;
-                int pay = r.nextInt(((r3 - r2 + 1)) + r2);
+                int pay = r.nextInt(r3 - r2 + 1) + r2;
                 System.out.println("please pay the amount " + pay);
                 int payment = sc.nextInt();
                 sc.nextLine();
 
                 int driver = r.nextInt(1000);
-                int minutes = r.nextInt(((r5 - r4 + 1)) + r4);
+                int minutes = r.nextInt(r5 - r4 + 1) + r4;
 
                 p.setString(1, pickup);
                 p.setString(2, drop);
@@ -94,13 +94,13 @@ class Booking {
                 int r3 = 300;
                 int r4 = 1;
                 int r5 = 10;
-                int pay = r.nextInt(((r3 - r2 + 1)) + r2);
+                int pay = r.nextInt(r3 - r2 + 1) + r2;
                 System.out.println("please pay the amount " + pay);
                 int payment = sc.nextInt();
                 sc.nextLine();
 
                 int driver = r.nextInt(1000);
-                int minutes = r.nextInt(((r5 - r4 + 1)) + r4);
+                int minutes = r.nextInt(r5 - r4 + 1) + r4;
 
                 p.setString(1, pickup);
                 p.setString(2, drop);
@@ -149,13 +149,13 @@ class Booking {
                 int r3 = 100;
                 int r4 = 1;
                 int r5 = 6;
-                int pay = r.nextInt(((r3 - r2 + 1)) + r2);
+                int pay = r.nextInt(r3 - r2 + 1) + r2;
                 System.out.println("please pay the amount " + pay);
                 int payment = sc.nextInt();
                 sc.nextLine();
 
                 int driver = r.nextInt(1000);
-                int minutes = r.nextInt(((r5 - r4 + 1)) + r4);
+                int minutes = r.nextInt(r5 - r4 + 1) + r4;
 
                 p.setString(1, pickup);
                 p.setString(2, drop);
@@ -204,7 +204,7 @@ class Booking {
                 int r3 = 150;
                 int r4 = 5;
                 int r5 = 10;
-                int pay = r.nextInt(((r3 - r2 + 1)) + r2);
+                int pay = r.nextInt(r3 - r2 + 1) + r2;
                 System.out.println("please pay the amount " + pay);
                 int payment = sc.nextInt();
                 sc.nextLine();
